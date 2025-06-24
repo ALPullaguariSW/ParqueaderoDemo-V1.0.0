@@ -1,0 +1,19 @@
+# Archivo de configuración para el proyecto de parqueadero
+
+# --- Fuente de Video para el DETECTOR en tiempo real ---
+# Ejemplo: "http://192.168.100.12:4747/video"
+# Ejemplo: "test_video.mp4" (para usar un archivo de video)
+# Ejemplo: 0 (para usar la webcam, pero debe ser un número, no texto)
+video_source: "la direccion ip aqui o el archivo de video"
+
+# --- Imagen para el CALIBRADOR ---
+# Nombre del archivo de imagen a usar para definir los espacios.
+imagen_calibracion: "./imagenes/vista_parqueadero.jpg"
+
+# --- Configuración del Detector ---
+# URL del backend para enviar actualizaciones de estado
+backend_url: "http://127.0.0.1:5000/api/update_status"
+
+# Umbral de detección: número de píxeles blancos para considerar un espacio 'ocupado'
+# Ajusta este valor según tus pruebas.
+umbral_deteccion: 1200
