@@ -9,7 +9,7 @@
 
 This project is a functional prototype of a smart parking system that uses computer vision to detect the availability of parking spots in real-time. The main goal is to create a fast, low-cost solution to monitor and manage parking spaces, providing users with a live map of vacant and occupied spots.
 
-![demo_jpg](https://user-images.githubusercontent.com/1234567/89101112-abcdef.png)  <!-- Optional: Add a GIF of your project in action! -->
+![Image](https://github.com/user-attachments/assets/2068d204-f16c-4f28-a087-13ca63ec4dc5)
 
 ## Core Features
 
