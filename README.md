@@ -82,21 +82,21 @@ This project is a functional prototype of a smart parking system that uses compu
 
 1.  **Calibrate the parking spots:**
     *   Run the calibrator script. It will use the image specified in `config.yml`.
-    *   ```bash
+      ```bash
       python calibrador.py
       ```
     *   Follow the on-screen instructions: click two opposite corners of a spot and press `s` to save. Repeat for all spots. Press `q` to quit and save the `posiciones.yml` file.
 
 2.  **Start the backend server:**
     *   Open a new terminal.
-    *   ```bash
+      ```bash
       python server.py
       ```
     *   Leave this terminal running.
 
 3.  **Start the detection engine:**
     *   Open a third terminal.
-    *   ```bash
+      ```bash
       python detector.py
       ```
     *   A window will pop up showing the live detection.
